@@ -34,7 +34,7 @@ public class ElectricalScooter extends Scooter {
      * @return Το σκορ μόλυνσης του περιβάλλοντος, the pollution score.
      */
     public double getPollutionScore() {
-        return this.chargingTime * 300 / 365;
+        return this.chargingTime * 300 / 365d;
     }
 
     /**

@@ -44,7 +44,7 @@ public class Scooter {
      * @return Το σκορ μόλυνσης του περιβάλλοντος, the pollution score.
      */
     public double getPollutionScore() {
-        return this.maxKM * 250 / 365;
+        return this.maxKM * 250 / 365d;
     }
 
     /**
